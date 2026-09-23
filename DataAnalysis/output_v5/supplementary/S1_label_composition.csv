@@ -1,0 +1,9 @@
+track,category,assigned_label_count,all_label_share,within_bias_label_share
+human,RB,514,0.249515,0.400624
+human,LEB,544,0.264078,0.424006
+human,M,225,0.109223,0.175370
+human,NB,777,0.377184,
+model,RB,15,0.042980,0.319149
+model,LEB,25,0.071633,0.531915
+model,M,7,0.020057,0.148936
+model,NB,302,0.865330,

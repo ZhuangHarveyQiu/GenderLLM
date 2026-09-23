@@ -1,0 +1,3 @@
+analysis,n_annotators,minimum_leave_one_out_human_share,maximum_leave_one_out_human_share,minimum_leave_one_out_difference,maximum_leave_one_out_difference
+full human panel,30,0.524883,0.556970,0.407924,0.440011
+post hoc 10%-90% sensitivity,26,0.508138,0.508138,0.391179,0.391179

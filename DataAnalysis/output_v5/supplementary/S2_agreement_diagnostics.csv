@@ -1,0 +1,5 @@
+category,human_fleiss_kappa,human_kappa_item_bootstrap_low,human_kappa_item_bootstrap_high,model_fleiss_kappa,model_kappa_item_bootstrap_low,model_kappa_item_bootstrap_high
+RB,0.042662,0.016202,0.070389,-0.017982,-0.055556,0.037441
+LEB,0.031217,0.009582,0.051487,0.369943,0.085849,0.638170
+M,0.062324,0.002642,0.124433,0.212452,-0.008850,0.389286
+Any bias / No Bias,0.083397,0.048981,0.116328,0.388477,0.114322,0.587436

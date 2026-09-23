@@ -1,0 +1,4 @@
+category,human_mean_sentence_share,model_mean_sentence_share,kendall_tau_b,concordance,concordant_pairs,discordant_pairs,model_tied_pairs,human_ordered_pairs,spearman_rho
+RB,0.304143,0.043860,0.368876,0.617203,477,120,926,1523,0.446342
+LEB,0.322493,0.073099,0.147739,0.546088,348,209,951,1508,0.175158
+M,0.133606,0.020468,0.313988,0.560095,196,18,1267,1481,0.370247

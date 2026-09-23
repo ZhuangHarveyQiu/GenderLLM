@@ -1,0 +1,7 @@
+model,stable_cells,comparable_cells,exact_stability_share
+claude,53,57,0.929825
+deepseek,50,57,0.877193
+gemini,55,57,0.964912
+gpt,52,57,0.912281
+llama,55,57,0.964912
+qwen,55,57,0.964912

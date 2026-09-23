@@ -1,0 +1,188 @@
+{
+  "analysis_version": "v5",
+  "seed": 2026,
+  "input_files": {
+    "human": "/Users/harveyq/Downloads/HSSC2026/RawHumanData/HumanDataRaw.csv",
+    "model": "/Users/harveyq/Downloads/HSSC2026/RawLLMData/parsed_annotations.csv",
+    "aggregate_crosscheck": "/Users/harveyq/Downloads/HSSC2026/RawHumanData/HumanAnnotation.csv"
+  },
+  "data_quality": {
+    "human_raw_judgments": 1710,
+    "human_deleted_contradictions": 20,
+    "human_valid_judgments": 1690,
+    "model_parsed_rows": 1031,
+    "model_repetition_cells": 1026,
+    "model_deleted_contradictions": 5,
+    "model_missing_consolidated_cells": 0,
+    "model_synthesised_cells": 0,
+    "aggregate_crosscheck": {
+      "available": true,
+      "mismatches": {
+        "RB": 0,
+        "LEB": 0,
+        "M": 0,
+        "NB": 0
+      },
+      "total_mismatches": 0
+    }
+  },
+  "primary_sentence_shares": [
+    {
+      "category": "Any bias",
+      "human_mean_sentence_share": 0.5405453288393397,
+      "human_item_bootstrap_low": 0.49621964393742973,
+      "human_item_bootstrap_high": 0.5834128424509549,
+      "model_mean_sentence_share": 0.11695906432748537,
+      "model_item_bootstrap_low": 0.06140350877192982,
+      "model_item_bootstrap_high": 0.18128654970760233,
+      "human_minus_model": 0.4235862645118544,
+      "difference_item_bootstrap_low": 0.3645818929507677,
+      "difference_item_bootstrap_high": 0.4771023103736352
+    },
+    {
+      "category": "RB",
+      "human_mean_sentence_share": 0.3041425402586927,
+      "human_item_bootstrap_low": 0.2720815688646904,
+      "human_item_bootstrap_high": 0.33697238786621725,
+      "model_mean_sentence_share": 0.043859649122807015,
+      "model_item_bootstrap_low": 0.023391812865497075,
+      "model_item_bootstrap_high": 0.06725146198830409,
+      "human_minus_model": 0.2602828911358857,
+      "difference_item_bootstrap_low": 0.23002448650361537,
+      "difference_item_bootstrap_high": 0.29110203670094775
+    },
+    {
+      "category": "LEB",
+      "human_mean_sentence_share": 0.32249301414455683,
+      "human_item_bootstrap_low": 0.29235614179125974,
+      "human_item_bootstrap_high": 0.3531351366923055,
+      "model_mean_sentence_share": 0.07309941520467836,
+      "model_item_bootstrap_low": 0.03216374269005848,
+      "model_item_bootstrap_high": 0.12280701754385964,
+      "human_minus_model": 0.24939359893987845,
+      "difference_item_bootstrap_low": 0.1982270691095555,
+      "difference_item_bootstrap_high": 0.29568137297266156
+    },
+    {
+      "category": "M",
+      "human_mean_sentence_share": 0.1336055656382335,
+      "human_item_bootstrap_low": 0.10826830006049606,
+      "human_item_bootstrap_high": 0.16234281825252783,
+      "model_mean_sentence_share": 0.02046783625730994,
+      "model_item_bootstrap_low": 0.0029239766081871343,
+      "model_item_bootstrap_high": 0.043859649122807015,
+      "human_minus_model": 0.11313772938092358,
+      "difference_item_bootstrap_low": 0.09482747817820411,
+      "difference_item_bootstrap_high": 0.1318823279463025
+    }
+  ],
+  "agreement_primary": [
+    {
+      "category": "RB",
+      "human_alpha": 0.04333039190792343,
+      "human_observed_pairwise_agreement": 0.5947787732421731,
+      "model_alpha": -0.01500509683995932,
+      "model_observed_pairwise_agreement": 0.9146198830409356
+    },
+    {
+      "category": "LEB",
+      "human_alpha": 0.03245040405984079,
+      "human_observed_pairwise_agreement": 0.5770716702356146,
+      "model_alpha": 0.37178548895899055,
+      "model_observed_pairwise_agreement": 0.9146198830409357
+    },
+    {
+      "category": "M",
+      "human_alpha": 0.06554881762398157,
+      "human_observed_pairwise_agreement": 0.7835639545863383,
+      "model_alpha": 0.2147547974413646,
+      "model_observed_pairwise_agreement": 0.968421052631579
+    },
+    {
+      "category": "Any bias / No Bias",
+      "human_alpha": 0.08405657604423111,
+      "human_observed_pairwise_agreement": 0.5446665834445629,
+      "model_alpha": 0.3902649006622516,
+      "model_observed_pairwise_agreement": 0.8736842105263157
+    }
+  ],
+  "ordering_primary": {
+    "human_mean_sentence_share": 0.5405453288393397,
+    "model_mean_sentence_share": 0.11695906432748537,
+    "human_minus_model": 0.4235862645118544,
+    "kendall_tau_b": 0.34840186393449607,
+    "concordance": 0.6292935839274141,
+    "concordant_pairs": 610,
+    "discordant_pairs": 211,
+    "model_tied_pairs": 722,
+    "human_ordered_pairs": 1543,
+    "concordance_item_bootstrap_low": 0.5463479841029127,
+    "concordance_item_bootstrap_high": 0.7061610188467674,
+    "model_distinct_endorsement_values": 7
+  },
+  "annotator_robustness": {
+    "summary": [
+      {
+        "analysis": "full human panel",
+        "n_annotators": 30,
+        "minimum_leave_one_out_human_share": 0.5248834090334392,
+        "maximum_leave_one_out_human_share": 0.5569703313199986,
+        "minimum_leave_one_out_difference": 0.4079243447059539,
+        "maximum_leave_one_out_difference": 0.4400112669925132
+      },
+      {
+        "analysis": "post hoc 10%-90% sensitivity",
+        "n_annotators": 26,
+        "minimum_leave_one_out_human_share": 0.5081376518218623,
+        "maximum_leave_one_out_human_share": 0.5081376518218623,
+        "minimum_leave_one_out_difference": 0.39117858749437706,
+        "maximum_leave_one_out_difference": 0.39117858749437706
+      }
+    ],
+    "extreme_response_sensitivity": {
+      "rule": "retain annotators with flag share from 0.10 through 0.90",
+      "post_hoc": true,
+      "n_annotators_retained": 26,
+      "excluded_annotators": "3,5,26,27",
+      "human_mean_sentence_share": 0.5081376518218623,
+      "model_mean_sentence_share": 0.11695906432748537,
+      "human_minus_model": 0.39117858749437706,
+      "kendall_tau_b": 0.33771280183222424,
+      "concordance": 0.6258992805755396,
+      "concordant_pairs": 600,
+      "discordant_pairs": 215,
+      "model_tied_pairs": 714,
+      "human_ordered_pairs": 1529
+    }
+  },
+  "outputs": {
+    "main": [
+      "Figure1_classification_patterns.png",
+      "Figure1_profile_data.csv",
+      "Figure1_sentence_data.csv",
+      "M1_primary_sentence_shares.csv",
+      "M2_human_annotator_profiles.csv",
+      "M3_model_profiles.csv",
+      "M4_agreement_primary.csv",
+      "M5_ordering_primary.csv",
+      "M6_by_model.csv",
+      "M7_by_article.csv",
+      "M8_leave_one_model_and_article.csv",
+      "M9_annotator_robustness_summary.csv",
+      "Table2_sentence_shares.csv",
+      "Table3_agreement.csv",
+      "Table4_by_model.csv"
+    ],
+    "supplementary": [
+      "S1_label_composition.csv",
+      "S2_agreement_diagnostics.csv",
+      "S3_six_person_panel_comparison.csv",
+      "S4_model_repetition_stability.csv",
+      "S5_repetition_ordering.csv",
+      "S6_category_ordering.csv",
+      "S7_leave_one_annotator_out.csv",
+      "S8_extreme_response_sensitivity.csv",
+      "S9_spearman_overall.csv"
+    ]
+  }
+}

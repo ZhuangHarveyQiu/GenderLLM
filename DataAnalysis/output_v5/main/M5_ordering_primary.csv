@@ -1,0 +1,2 @@
+human_mean_sentence_share,model_mean_sentence_share,human_minus_model,kendall_tau_b,concordance,concordant_pairs,discordant_pairs,model_tied_pairs,human_ordered_pairs,concordance_item_bootstrap_low,concordance_item_bootstrap_high,model_distinct_endorsement_values
+0.540545,0.116959,0.423586,0.348402,0.629294,610,211,722,1543,0.546348,0.706161,7

@@ -1,0 +1,10 @@
+model_omitted,n_models,model_mean_sentence_share,human_minus_model,kendall_tau_b,concordance,concordant_pairs,discordant_pairs,model_tied_pairs,human_ordered_pairs,analysis_type,article_omitted,n_sentences,human_mean_sentence_share
+claude,5.000000,0.126316,0.414230,0.349481,0.629618,610,210,723,1543,leave one model out,,,
+deepseek,5.000000,0.112281,0.428265,0.365197,0.631562,591,185,767,1543,leave one model out,,,
+gemini,5.000000,0.122807,0.417738,0.350561,0.629942,610,209,724,1543,leave one model out,,,
+gpt,5.000000,0.119298,0.421247,0.416407,0.646792,598,145,800,1543,leave one model out,,,
+llama,5.000000,0.091228,0.449317,0.150901,0.546338,351,208,984,1543,leave one model out,,,
+qwen,5.000000,0.129825,0.410721,0.334751,0.622165,586,209,748,1543,leave one model out,,,
+,,0.094595,0.457465,0.279723,0.597962,212,87,339,638,leave one article out,P1,37.000000,0.552059
+,,0.135965,0.352463,0.380514,0.642541,280,87,310,677,leave one article out,P2,38.000000,0.488428
+,,0.119658,0.460745,0.385952,0.649306,316,101,303,720,leave one article out,P3,39.000000,0.580403

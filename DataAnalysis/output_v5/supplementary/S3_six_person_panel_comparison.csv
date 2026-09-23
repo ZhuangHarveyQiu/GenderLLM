@@ -1,0 +1,5 @@
+category,model_fleiss_kappa,six_human_panel_median_kappa,six_human_panel_low,six_human_panel_high,model_percentile_in_six_human_distribution
+RB,-0.017982,0.005139,-0.092478,0.146542,35.040000
+LEB,0.369943,-0.007509,-0.082816,0.123595,100.000000
+M,0.212452,0.040512,-0.071818,0.294239,93.340000
+Any bias / No Bias,0.388477,0.036013,-0.075159,0.207730,99.990000

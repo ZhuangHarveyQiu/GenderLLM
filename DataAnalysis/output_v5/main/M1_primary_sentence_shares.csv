@@ -1,0 +1,5 @@
+category,human_mean_sentence_share,human_item_bootstrap_low,human_item_bootstrap_high,model_mean_sentence_share,model_item_bootstrap_low,model_item_bootstrap_high,human_minus_model,difference_item_bootstrap_low,difference_item_bootstrap_high
+Any bias,0.540545,0.496220,0.583413,0.116959,0.061404,0.181287,0.423586,0.364582,0.477102
+RB,0.304143,0.272082,0.336972,0.043860,0.023392,0.067251,0.260283,0.230024,0.291102
+LEB,0.322493,0.292356,0.353135,0.073099,0.032164,0.122807,0.249394,0.198227,0.295681
+M,0.133606,0.108268,0.162343,0.020468,0.002924,0.043860,0.113138,0.094827,0.131882

@@ -1,0 +1,37 @@
+member,flag_share,panel
+1,0.157895,Human annotators
+2,0.732143,Human annotators
+3,0.981132,Human annotators
+4,0.298246,Human annotators
+5,1.000000,Human annotators
+6,0.701754,Human annotators
+7,0.500000,Human annotators
+8,0.892857,Human annotators
+9,0.280702,Human annotators
+10,0.745455,Human annotators
+11,0.777778,Human annotators
+12,0.403509,Human annotators
+13,0.660714,Human annotators
+14,0.192982,Human annotators
+15,0.543860,Human annotators
+16,0.736842,Human annotators
+17,0.526316,Human annotators
+18,0.578947,Human annotators
+19,0.368421,Human annotators
+20,0.438596,Human annotators
+21,0.210526,Human annotators
+22,0.462963,Human annotators
+23,0.821429,Human annotators
+24,0.385965,Human annotators
+25,0.298246,Human annotators
+26,1.000000,Human annotators
+27,0.070175,Human annotators
+28,0.157895,Human annotators
+29,0.859649,Human annotators
+30,0.508772,Human annotators
+claude,0.070175,Models
+deepseek,0.140351,Models
+gemini,0.087719,Models
+gpt,0.105263,Models
+llama,0.245614,Models
+qwen,0.052632,Models

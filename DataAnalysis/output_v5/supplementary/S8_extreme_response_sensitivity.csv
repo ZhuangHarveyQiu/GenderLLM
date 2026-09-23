@@ -1,0 +1,2 @@
+rule,post_hoc,n_annotators_retained,excluded_annotators,human_mean_sentence_share,model_mean_sentence_share,human_minus_model,kendall_tau_b,concordance,concordant_pairs,discordant_pairs,model_tied_pairs,human_ordered_pairs
+retain annotators with flag share from 0.10 through 0.90,True,26,"3,5,26,27",0.508138,0.116959,0.391179,0.337713,0.625899,600,215,714,1529

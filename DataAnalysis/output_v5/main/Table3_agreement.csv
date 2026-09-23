@@ -1,0 +1,5 @@
+Category,Human alpha,Human observed pairwise agreement,Model alpha,Model observed pairwise agreement
+RB,0.043330,0.594779,-0.015005,0.914620
+LEB,0.032450,0.577072,0.371785,0.914620
+M,0.065549,0.783564,0.214755,0.968421
+Any bias / No Bias,0.084057,0.544667,0.390265,0.873684

@@ -1,0 +1,4 @@
+article,n_sentences,human_mean_sentence_share,model_mean_sentence_share,human_minus_model,kendall_tau_b,concordance,concordant_pairs,discordant_pairs,model_tied_pairs,human_ordered_pairs
+P1,20,0.519245,0.158333,0.360911,0.499900,0.704918,97,22,64,183
+P2,19,0.644780,0.078947,0.565833,0.304550,0.612805,61,24,79,164
+P3,18,0.454187,0.111111,0.343076,0.233923,0.575862,40,18,87,145

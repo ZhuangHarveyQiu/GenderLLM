@@ -1,8 +1,0 @@
-model,sentences,labels,bias_label_share,sentences_flagged,sentence_flag_share,stable_cells,stability_denominator,stability_share
-claude,57.00,57.00,0.07,4.00,0.07,53.00,57.00,0.93
-deepseek,57.00,57.00,0.14,8.00,0.14,50.00,57.00,0.88
-gemini,57.00,57.00,0.09,5.00,0.09,55.00,57.00,0.96
-gpt,57.00,58.00,0.12,6.00,0.11,52.00,57.00,0.91
-llama,57.00,62.00,0.31,14.00,0.25,55.00,57.00,0.96
-qwen,57.00,58.00,0.07,3.00,0.05,55.00,57.00,0.96
-HUMAN (aggregate),1690.00,2060.00,0.62,913.00,0.54,,,
