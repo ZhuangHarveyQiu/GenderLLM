@@ -77,12 +77,3 @@ python3 DataAnalysis/analysis_pipeline_v5.py --project-dir . --output-dir DataAn
 This writes a new set of results under `DataAnalysis/output_reproduced/`, with `main/` and `supplementary/` subdirectories and an `analysis_report_v5.json` file. The separate output directory preserves the deposited results for comparison. Omitting `--output-dir` writes to `DataAnalysis/output_v5/` and overwrites files with matching names.
 
 The pipeline starts from the deposited human responses and parsed model annotations. It does not make new model API calls or regenerate the parsed annotations from the raw responses. No API credentials are required to run it.
-
-### Processing and interpretation
-
-- Human responses containing both `NB` and a bias category are excluded as contradictory judgments. The deposited report records 1,710 original human judgments, 20 exclusions, and 1,690 valid judgments.
-- Model rows are combined by model, repetition, and sentence. Contradictory repetitions are excluded before consolidation. With at least two surviving repetitions, a category is retained when it appears in at least two; with one survivor, its label set is retained.
-- The primary outcome is the proportion of valid panel members assigning any bias category to each sentence. Category-specific outcomes, agreement measures, sentence-ordering measures, and robustness checks are also reported.
-- The code uses random seed `2026`, 5,000 item-bootstrap draws, and 10,000 six-person human-panel draws. Item-bootstrap intervals describe sensitivity to the observed sentences, conditional on the fixed panels and corpus.
-
-Dependency versions are not pinned in this repository. Figure appearance may vary across systems because the script uses available fonts. Consult the manuscript for the full design, model configurations, analysis rationale, and limitations; neither panel is treated as a gold standard.
