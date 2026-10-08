@@ -52,28 +52,3 @@ Multiple bias categories may be assigned to a sentence. `NB` is mutually exclusi
 The analysis identifies articles as `P1`, `P2`, and `P3`, containing 20, 19, and 18 sentences, respectively. Sentence numbers restart within each article; a key such as `P2_1` therefore identifies sentence 1 of article 2. The aggregate human file numbers sentences consecutively from 1 to 57. Annotator columns represent the same individuals across sentences; the pipeline assigns them identifiers `A1`–`A30`.
 
 CSV files contain Chinese text and should be opened with UTF-8 encoding. The human files can be read using `utf-8-sig`. JSONL files contain one JSON object per line.
-
-## Reproducing the analysis
-
-### Requirements
-
-- Python 3.10 or later.
-- Python packages `numpy`, `pandas`, and `Pillow`.
-
-In your Python environment, install the required packages:
-
-```sh
-python3 -m pip install numpy pandas Pillow
-```
-
-### Run the pipeline
-
-Extract the repository ZIP and open a terminal in the directory containing `RawHumanData`, `RawLLMData`, and `DataAnalysis`. Run:
-
-```sh
-python3 DataAnalysis/analysis_pipeline_v5.py --project-dir . --output-dir DataAnalysis/output_reproduced
-```
-
-This writes a new set of results under `DataAnalysis/output_reproduced/`, with `main/` and `supplementary/` subdirectories and an `analysis_report_v5.json` file. The separate output directory preserves the deposited results for comparison. Omitting `--output-dir` writes to `DataAnalysis/output_v5/` and overwrites files with matching names.
-
-The pipeline starts from the deposited human responses and parsed model annotations. It does not make new model API calls or regenerate the parsed annotations from the raw responses. No API credentials are required to run it.
